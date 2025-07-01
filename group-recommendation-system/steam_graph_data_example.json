@@ -1,0 +1,207 @@
+{
+  "nodes": [
+    {
+      "id": "76561197960287930",
+      "name": "GabeNewell",
+      "country": "US",
+      "games_count": 150,
+      "total_playtime": 90000,
+      "friends_count": 500,
+      "cluster": 0
+    },
+    {
+      "id": "76561197960287931",
+      "name": "PlayerOne",
+      "country": "BR",
+      "games_count": 80,
+      "total_playtime": 45000,
+      "friends_count": 120,
+      "cluster": 1
+    },
+    {
+      "id": "76561197960287932",
+      "name": "GameMaster",
+      "country": "US",
+      "games_count": 200,
+      "total_playtime": 120000,
+      "friends_count": 300,
+      "cluster": 0
+    },
+    {
+      "id": "76561197960287933",
+      "name": "CasualGamer",
+      "country": "DE",
+      "games_count": 30,
+      "total_playtime": 15000,
+      "friends_count": 50,
+      "cluster": 2
+    },
+    {
+      "id": "76561197960287934",
+      "name": "ProPlayer",
+      "country": "BR",
+      "games_count": 120,
+      "total_playtime": 80000,
+      "friends_count": 200,
+      "cluster": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "76561197960287930",
+      "target": "76561197960287932",
+      "similarity": 0.8
+    },
+    {
+      "source": "76561197960287931",
+      "target": "76561197960287934",
+      "similarity": 0.7
+    },
+    {
+      "source": "76561197960287930",
+      "target": "76561197960287931",
+      "similarity": 0.4
+    },
+    {
+      "source": "76561197960287932",
+      "target": "76561197960287933",
+      "similarity": 0.3
+    }
+  ],
+  "clusters": [
+    {
+      "id": 0,
+      "users": [
+        "76561197960287930",
+        "76561197960287932"
+      ],
+      "characteristics": {
+        "size": 2,
+        "avg_games_per_user": 175.0,
+        "most_popular_games": [
+          [
+            "400",
+            2
+          ],
+          [
+            "570",
+            2
+          ],
+          [
+            "730",
+            2
+          ]
+        ],
+        "countries": {
+          "US": 2
+        },
+        "avg_playtime_per_user": 105000
+      },
+      "recommended_games": [
+        {
+          "appid": "1091500",
+          "name": "Cyberpunk 2077",
+          "score": 0.85,
+          "popularity": 0.7,
+          "engagement": 0.8,
+          "similarity": 0.9
+        },
+        {
+          "appid": "1174180",
+          "name": "Red Dead Redemption 2",
+          "score": 0.82,
+          "popularity": 0.6,
+          "engagement": 0.9,
+          "similarity": 0.85
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "users": [
+        "76561197960287931",
+        "76561197960287934"
+      ],
+      "characteristics": {
+        "size": 2,
+        "avg_games_per_user": 100.0,
+        "most_popular_games": [
+          [
+            "440",
+            2
+          ],
+          [
+            "570",
+            2
+          ],
+          [
+            "730",
+            1
+          ]
+        ],
+        "countries": {
+          "BR": 2
+        },
+        "avg_playtime_per_user": 62500
+      },
+      "recommended_games": [
+        {
+          "appid": "1172470",
+          "name": "Apex Legends",
+          "score": 0.78,
+          "popularity": 0.8,
+          "engagement": 0.7,
+          "similarity": 0.8
+        },
+        {
+          "appid": "578080",
+          "name": "PUBG: BATTLEGROUNDS",
+          "score": 0.75,
+          "popularity": 0.6,
+          "engagement": 0.8,
+          "similarity": 0.8
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "users": [
+        "76561197960287933"
+      ],
+      "characteristics": {
+        "size": 1,
+        "avg_games_per_user": 30.0,
+        "most_popular_games": [
+          [
+            "4000",
+            1
+          ],
+          [
+            "8930",
+            1
+          ]
+        ],
+        "countries": {
+          "DE": 1
+        },
+        "avg_playtime_per_user": 15000
+      },
+      "recommended_games": [
+        {
+          "appid": "381210",
+          "name": "Dead by Daylight",
+          "score": 0.65,
+          "popularity": 0.5,
+          "engagement": 0.6,
+          "similarity": 0.8
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "total_users": 5,
+    "total_games": 15,
+    "total_friendships": 4,
+    "clusters_count": 3
+  }
+}
